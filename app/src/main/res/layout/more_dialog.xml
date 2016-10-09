@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:id="@+id/dialog" android:layout_marginRight="15px"
+    android:padding="10dp" android:layout_width="115dp" android:layout_height="wrap_content">
+    <Button android:layout_height="wrap_content"  android:layout_width="fill_parent" android:text="全部联系人" android:paddingTop="5dp" android:paddingBottom="5dp" android:paddingLeft="10dp" android:gravity="left|center_vertical" android:id="@+id/btnSltCntAll"></Button>
+    <Button android:layout_height="wrap_content"   android:text="咕咚用户" android:gravity="left|center_vertical" android:paddingBottom="5dp" android:paddingTop="5dp" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="fill_parent" android:id="@+id/btnSltGudongUser"></Button>
+    <Button   android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="推荐用户" android:gravity="left|center_vertical" android:paddingTop="5dp" android:paddingBottom="5dp" android:paddingLeft="10dp" android:id="@+id/btnSltRecommend"></Button>
+</LinearLayout>

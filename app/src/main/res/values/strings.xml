@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BoChat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="chat">chatfragment</string>
+    <string name="contact">contactfragment</string>
+    <string name="myself">privatefragment</string>
+    <string name="relative">relativefragment</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+    </string>
+</resources>

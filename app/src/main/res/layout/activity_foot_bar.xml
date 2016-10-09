@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/foot"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorTitle"
+    tools:context="com.zmb.skyworth.bochat.FootBar">
+<ImageButton
+    android:id="@+id/chat"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:src="@mipmap/ic_launcher"
+    android:background="@drawable/selector"
+    android:layout_margin="5sp"
+    android:tag="chat"
+
+    />
+    <ImageButton
+        android:id="@+id/contact"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@mipmap/ic_launcher"
+        android:background="@drawable/selector"
+        android:layout_margin="5sp"
+        android:tag="contact"
+        />
+    <ImageButton
+        android:id="@+id/myself"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@mipmap/ic_launcher"
+        android:background="@drawable/selector"
+        android:layout_margin="5sp"
+        android:tag="myself"
+        />
+    <ImageButton
+        android:id="@+id/relative"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@mipmap/ic_launcher"
+        android:background="@drawable/selector"
+        android:layout_margin="5sp"
+        android:tag="relative"
+        />
+</LinearLayout>

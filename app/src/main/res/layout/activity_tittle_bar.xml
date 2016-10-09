@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorTitle"
+
+    tools:context="com.zmb.skyworth.bochat.TittleBar">
+
+    <ImageButton
+        android:id="@+id/setupbtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_weight="1"
+        android:src="@mipmap/ic_launcher"
+        android:tag="setup"
+        android:background="@drawable/selector"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:tag="title"
+        android:text="博聊"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/more"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_weight="1"
+        android:background="@drawable/selector"
+        android:tag="more"
+        android:text="..."
+        android:textSize="30sp"
+
+        />
+</LinearLayout>
