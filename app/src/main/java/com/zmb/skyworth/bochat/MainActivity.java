@@ -5,6 +5,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends Activity
 {
 	private SlidMenu mMenu;
@@ -16,7 +19,6 @@ public class MainActivity extends Activity
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.sample_slid_menu);
 		mMenu = (SlidMenu) findViewById(R.id.id_menu);
-
 	}
 
 	public void toggleMenu(View view)

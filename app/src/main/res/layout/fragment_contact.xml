@@ -6,9 +6,17 @@
     tools:context="com.zmb.skyworth.fragment.ContactFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/contact" />
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact" />
+<include layout="@layout/root_all"></include>
+    </LinearLayout>
+
 
 </FrameLayout>

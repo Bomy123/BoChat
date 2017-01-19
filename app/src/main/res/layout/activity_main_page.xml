@@ -24,9 +24,6 @@
                 ></fragment>
         </FrameLayout>
     </LinearLayout>
-
-<include layout="@layout/activity_foot_bar"
-
-    ></include>
+<include layout="@layout/activity_foot_bar"></include>
 
 </LinearLayout>

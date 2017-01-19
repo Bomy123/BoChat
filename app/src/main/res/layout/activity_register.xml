@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zmb.skyworth.bochat.RegisterActivity">
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="用户名："
+            />
+        <EditText
+            android:id="@+id/inputname"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="密码"
+            />
+        <EditText
+            android:id="@+id/inputpwd"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:password="true"
+
+            />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/photo"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="照片"
+            />
+        <EditText
+            android:id="@+id/selphoto"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+
+            />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/sex"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="性别："
+            />
+        <RadioGroup>
+            <RadioButton
+                android:id="@+id/man"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男"
+                />
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="女"
+                />
+        </RadioGroup>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/age"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="年龄"
+            />
+        <EditText
+            android:id="@+id/inputage"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+    </TableRow>
+<Button
+    android:id="@+id/register"
+    android:layout_height="30dp"
+    android:layout_width="match_parent"
+    android:text="注册"
+    />
+</TableLayout>
